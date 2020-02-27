@@ -1,0 +1,151 @@
+*{
+  margin:0;
+}
+/*Start Navigation Bar*/
+.navbar li{
+  list-style:none;
+  background:none;
+  color: white;
+  margin:10px 10%; 
+  padding:2px;
+}
+.navbar li a{
+  text-decoration: none;
+  color: white;
+  font-family:serif;
+}
+.navbar li a:visited{
+  color:white;
+}
+.navbar {
+  align-content:center;
+  background:#1D1160;
+  display:flex;
+  justify-content:flex-start;
+}
+/*End Navigation Bar*/
+/*Start Background Image*/
+body{
+  background:url(https://gotraveltipster.com/wp-content/uploads/2019/06/charlotte-north-carolina-skyline-3-1080x810.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+/*End Background Image*/
+/*Start Youtube Videos*/
+.video{
+  position:absolute;
+  width:99%;
+  border:8px solid #1D1160;
+  background-color:#00788C;
+  margin-top:10px;
+}
+iframe{
+  padding:73px;
+}
+/*End Youtube Videos*/
+/*Start Containers*/
+.container-3 {
+  color:white;
+  border:5px solid #00788C;
+  display:inline-block;
+  width:47%;
+  margin:10px;
+}
+.container-3 a{
+  display:flex;
+
+}
+.container a{
+  width:50%;
+  border:1px solid black;
+}
+.container img{
+  width:300px;
+  height:300px;
+}
+img {
+  min-height:100%;
+  min-width:100%;
+  width:300px;
+  height:300px;
+}
+.container {
+  color:white;
+  border:1px solid black;
+  display:flex;
+  background-color:#1D1160;
+}
+/*End Containers*/
+/*Start Text*/
+.welcome{
+  padding:110px;
+  font-family:Impact, Charcoal, sans-serif;
+  font-size:40px;
+  background:url(https://www.cpepdoc.org/wp-content/uploads/2019/10/Charlotte-NC-Skyline.jpg);
+  background-size:cover;
+}
+.southern{
+  padding:50px;
+  font-family:Impact, Charcoal, sans-serif;
+  font-size:30px;
+}
+.words {
+  width: 50%;
+  font-family:arial;
+  text-decoration:none;
+}
+h1, h2 {
+  text-align:center;
+  background:#00788C;
+  margin:30px auto;
+  padding:10px;
+  color:white;
+}
+h2{
+  font-size:30px;
+}
+p{
+  text-align:center;
+}
+/*End Text*/
+/*Start Contact Form*/
+.space{
+  padding:3.5px;
+}
+.contact-form{
+  color:white;
+  align-content:center;
+  border:10px solid #1D1160;
+  background-color:#00788C;
+  width:35%;
+  margin:50px auto;
+  font-family:arial;
+  font-size:20px;
+}
+input, textarea{
+  width:100%
+}
+#submit{
+  border:0px;
+  width:25%
+}
+.form-input{
+  font-size:14pt;
+}
+/*End Contact Form*/
+/*Start Footer*/
+footer{
+  margin-top:800px;
+  color:greenyellow;
+  background-color:#1D1160;
+  height:10px;
+  width:100%;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+/*   font-display: swap; */
+}
+footer a:visited{
+  color:white;
+}
+/*End Footer*/
